@@ -1,5 +1,5 @@
 from pathlib import Path
-from modules import add_item
+from modules import add_item, remove_item
 import os 
 import json
 import sys
@@ -13,8 +13,9 @@ def main():
     #interface e opções
     interface()
 
+
 def ensure_data_file():
-    response = input("""Antes de começarmos temos um aviso.\nSerá necessario criar um novo arquivo mesmo se o usuario ja possui-lo, deseja continuar?\nDigite S ou N: \n""").lower()                     
+    response = input("""Antes de começarmos temos um aviso.\nSerá necessario criar um novo arquivo mesmo se o usuario ja possui-lo, deseja continuar?\nDigite S ou N: _""").lower()                     
     
     if response in ["s","sim","yes","y"]:
         with open(user_data(), 'w', encoding='utf8') as f:
@@ -23,7 +24,7 @@ def ensure_data_file():
             print("\nArquivo criado com sucesso!")
             
         
-        base_itens = input("Deseja adicionar 50 itens mais comuns no seu gerenciador?? Digite S o N: \n").lower()
+        base_itens = input("Deseja adicionar 50 itens mais comuns no seu gerenciador?? Digite S o N: _").lower()
         if base_itens in ["s","sim","yes","y"]:
             with open(initial_data(), 'r', encoding='utf8') as f:
                 dados = json.load(f)
@@ -37,6 +38,7 @@ def ensure_data_file():
     else:
         sys.exit(2)
 
+
 def welcome_to_program():
     print("""\n--------------------------------------------------
 THE FOOD MANAGER - v0.1
@@ -44,6 +46,7 @@ THE FOOD MANAGER - v0.1
 Bem-vindo ao sistema de gerenciamento de estoque.
 Status: Online
 --------------------------------------------------\n""")
+
 
 def user_data():
     caminho_atual = Path(__file__).resolve()
@@ -57,6 +60,7 @@ def user_data():
     arquivo_json = pasta_data / "user_data.json"
     return arquivo_json
 
+
 def initial_data():
 
     caminho_atual = Path(__file__).resolve()
@@ -69,6 +73,7 @@ def initial_data():
 
     arquivo_json = pasta_data / "initial_data.json"
     return arquivo_json
+
 
 def interface():
     while True:
@@ -89,6 +94,10 @@ def interface():
         if opcao == "1":
             add_item.add_item()
 
+        elif opcao == "2":
+            remove_item.remove_itens(
+
+            )
         elif opcao == "0":
             print("\nEncerrando...\n")
             break
