@@ -1,1 +1,257 @@
-[]
+[
+    {
+        "id": 1,
+        "nome": "Arroz 5kg",
+        "quantidade": 0
+    },
+    {
+        "id": 2,
+        "nome": "Feijão Preto 1kg",
+        "quantidade": 0
+    },
+    {
+        "id": 3,
+        "nome": "Açúcar Refinado 1kg",
+        "quantidade": 0
+    },
+    {
+        "id": 4,
+        "nome": "Café Torrado 500g",
+        "quantidade": 0
+    },
+    {
+        "id": 5,
+        "nome": "Óleo de Soja 900ml",
+        "quantidade": 0
+    },
+    {
+        "id": 6,
+        "nome": "Sal Refinado 1kg",
+        "quantidade": 0
+    },
+    {
+        "id": 7,
+        "nome": "Macarrão Espaguete 500g",
+        "quantidade": 0
+    },
+    {
+        "id": 8,
+        "nome": "Farinha de Trigo 1kg",
+        "quantidade": 0
+    },
+    {
+        "id": 9,
+        "nome": "Leite Integral 1L",
+        "quantidade": 0
+    },
+    {
+        "id": 11,
+        "nome": "Ovos Brancos - Dúzia",
+        "quantidade": 0
+    },
+    {
+        "id": 12,
+        "nome": "Molho de Tomate Sachê",
+        "quantidade": 0
+    },
+    {
+        "id": 13,
+        "nome": "Arroz Integral 1kg",
+        "quantidade": 0
+    },
+    {
+        "id": 14,
+        "nome": "Feijão Carioca 1kg",
+        "quantidade": 0
+    },
+    {
+        "id": 15,
+        "nome": "Fubá Mimoso 500g",
+        "quantidade": 0
+    },
+    {
+        "id": 16,
+        "nome": "Farinha de Mandioca 500g",
+        "quantidade": 0
+    },
+    {
+        "id": 17,
+        "nome": "Biscoito Recheado",
+        "quantidade": 0
+    },
+    {
+        "id": 18,
+        "nome": "Pão de Forma",
+        "quantidade": 0
+    },
+    {
+        "id": 19,
+        "nome": "Achocolatado em Pó 400g",
+        "quantidade": 0
+    },
+    {
+        "id": 20,
+        "nome": "Creme de Leite",
+        "quantidade": 0
+    },
+    {
+        "id": 21,
+        "nome": "Leite Condensado",
+        "quantidade": 0
+    },
+    {
+        "id": 22,
+        "nome": "Milho Verde Lata",
+        "quantidade": 0
+    },
+    {
+        "id": 23,
+        "nome": "Ervilha Lata",
+        "quantidade": 0
+    },
+    {
+        "id": 24,
+        "nome": "Atum em Lata",
+        "quantidade": 0
+    },
+    {
+        "id": 25,
+        "nome": "Sardinha em Lata",
+        "quantidade": 0
+    },
+    {
+        "id": 26,
+        "nome": "Azeite de Oliva 500ml",
+        "quantidade": 0
+    },
+    {
+        "id": 27,
+        "nome": "Vinagre de Álcool",
+        "quantidade": 0
+    },
+    {
+        "id": 28,
+        "nome": "Maionese 500g",
+        "quantidade": 0
+    },
+    {
+        "id": 29,
+        "nome": "Ketchup 400g",
+        "quantidade": 0
+    },
+    {
+        "id": 30,
+        "nome": "Mostarda 200g",
+        "quantidade": 0
+    },
+    {
+        "id": 31,
+        "nome": "Gelatina em Pó",
+        "quantidade": 0
+    },
+    {
+        "id": 32,
+        "nome": "Pipoca Premium 500g",
+        "quantidade": 0
+    },
+    {
+        "id": 33,
+        "nome": "Aveia em Flocos",
+        "quantidade": 0
+    },
+    {
+        "id": 34,
+        "nome": "Cereal Matinal",
+        "quantidade": 0
+    },
+    {
+        "id": 35,
+        "nome": "Chá de Camomila",
+        "quantidade": 0
+    },
+    {
+        "id": 36,
+        "nome": "Suco de Uva 1L",
+        "quantidade": 0
+    },
+    {
+        "id": 37,
+        "nome": "Água Mineral 1.5L",
+        "quantidade": 0
+    },
+    {
+        "id": 38,
+        "nome": "Refrigerante 2L",
+        "quantidade": 0
+    },
+    {
+        "id": 39,
+        "nome": "Peito de Frango 1kg",
+        "quantidade": 0
+    },
+    {
+        "id": 40,
+        "nome": "Carne Moída 500g",
+        "quantidade": 0
+    },
+    {
+        "id": 41,
+        "nome": "Queijo Mussarela 200g",
+        "quantidade": 0
+    },
+    {
+        "id": 42,
+        "nome": "Presunto Fatiado 200g",
+        "quantidade": 0
+    },
+    {
+        "id": 43,
+        "nome": "Iogurte Natural",
+        "quantidade": 0
+    },
+    {
+        "id": 44,
+        "nome": "Batata Inglesa 1kg",
+        "quantidade": 0
+    },
+    {
+        "id": 45,
+        "nome": "Cebola 1kg",
+        "quantidade": 0
+    },
+    {
+        "id": 46,
+        "nome": "Alho - Cabeça",
+        "quantidade": 0
+    },
+    {
+        "id": 47,
+        "nome": "Tomate Italiano 1kg",
+        "quantidade": 0
+    },
+    {
+        "id": 48,
+        "nome": "Maçã Gala - Unidade",
+        "quantidade": 0
+    },
+    {
+        "id": 49,
+        "nome": "Banana Nanica - Dúzia",
+        "quantidade": 0
+    },
+    {
+        "id": 50,
+        "nome": "Laranja Pera - Saco 2kg",
+        "quantidade": 0
+    },
+    {
+        "id": 50,
+        "nome": "maça",
+        "quantidade": 90
+    },
+    {
+        "id": 51,
+        "nome": "uva",
+        "quantidade": 31
+    }
+]

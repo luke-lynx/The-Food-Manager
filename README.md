@@ -2,9 +2,9 @@
 
 # The Food Manager
 
-**Versão 0.1.2** | Lançamento Inicial (CLI)
+**Versão 0.1.3** | Lançamento Inicial (CLI)
 
-# Nota de Atualização: Adicionada função de remoção com confirmação e correção de IDs
+# Nota de Atualização: Adicionada função de listagem de itens com CLI aprimorada.
 
 Gerenciador de estoques de alimentos desenvolvido para simplificar o controle de inventário. Esta versão inicial estabelece a lógica central do sistema via terminal, priorizando a organização do código e o funcionamento das regras de negócio antes da implementação de interfaces gráficas.
 
@@ -12,17 +12,17 @@ Gerenciador de estoques de alimentos desenvolvido para simplificar o controle de
 
 O objetivo do The Food Manager é fornecer uma ferramenta leve e direta para o controle de suprimentos. O programa opera inteiramente via linha de comando nesta fase, servindo como a fundação para uma futura plataforma multiplataforma.
 
-### Funcionalidades v0.1.1
+### Funcionalidades v0.1.3
 * **Cadastro de Itens:** Adicionar novos alimentos ao sistema com quantidade inicial.
-[CONCLUÍDO]
+[#CONCLUÍDO]
 
 * **Remoção:** Excluir itens do registro de estoque.
-[CONCLUÍDO]
+[#CONCLUÍDO]
 
 * **Ajuste de Saldo:** Funções específicas para aumentar ou diminuir a quantidade de itens.
 
 * **Listagem:** Visualização completa de todos os alimentos e seus respectivos status.
-
+[#CONCLUIDO]
 ## Desenvolvimento e Estabilidade
 
 Nesta fase de lançamento, o foco total está na estabilidade das funções básicas (CRUD) e na qualidade da lógica de programação. 
