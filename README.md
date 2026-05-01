@@ -1,5 +1,3 @@
-
-
 # The Food Manager
 
 **Versão 0.1.3** | Lançamento Inicial (CLI)
